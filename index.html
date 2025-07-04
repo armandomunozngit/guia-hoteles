@@ -24,7 +24,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a class="nav-link" href="/about.html">Nosotros</a>
-        <a class="nav-link" href="#">Precios</a>
+        <a class="nav-link" href="/precios.html#">Precios</a>
         <a class="nav-link" href="#">Términos y Condiciones</a>
         <a class="nav-link" href="/contacto.html">Contacto</a>
       </div>
@@ -43,6 +43,8 @@
         </ol>
       </nav>
 
+      <img src="/images/viajes.jpeg" class="img-fluid w-100 mb-4 alt="Imagen responsive">
+
       <div class="d-flex">
         <div class="col-sm-3">
           <h4>¿Cómo Funciona?</h4>
@@ -58,72 +60,99 @@
         </div>
       </div>      
 
-      <div class="d-flex flex-wrap flex-row-reverse">
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h4>Hotel Barcelona</h4>
-            <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa</p>
+  <!-- Tarjetas -->
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4 g-4">      <div class="col">
+        <div class="card h-100 shadow border-0">
+          <img src="/images/hotel1.jpeg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hotel Barcelona</h5>
+            <p class="card-text">Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa</p>
           </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-address-icon"></span>Reservar</button>
-          </div>  
-        </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h4>Hotel Buenos Aires</h4>
-            <p>Hotel ubicado en pleno centro</p>
-          </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-address-icon"></span>Reservar</button>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary btn-sm w-100"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
           </div>
         </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h4>Hotel Lima</h4>
-            <p>Hotel ubicado en pleno centro</p>
-          </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-address-icon"></span>Reservar</button>
-          </div>
-        </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h4>Hotel Río de Janeiro</h4>
-            <p>Hotel ubicado en pleno centro de Río de Janeiro a pocos metros de la playa</p>
-          </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-address-icon"></span>Reservar</button>
-          </div>
-        </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h4>Hotel La Paz</h4>
-            <p>Hotel ubicado en pleno centro de La Paz</p>
-          </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-address-icon"></span>Reservar</button>
-          </div>
-        </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h4>Hotel Madrid</h4>
-            <p>Hotel ubicado en pleno centro</p>
-          </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-address-icon"></span>Reservar</button>
-          </div>
-        </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h4>Hotel San Pablo</h4>
-            <p>Hotel ubicado en pleno centro</p>
-          </div>
-          <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-address-icon"></span>Reservar</button>
-          </div>
-        </div>
-
       </div>
+      <div class="col">
+        <div class="card h-100 shadow border-0">
+          <img src="/images/hotel2.jpeg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hotel Buenos Aires</h5>
+            <p class="card-text">Hotel ubicado en pleno centro de Buenos Aires</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary btn-sm w-100"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow border-0">
+          <img src="/images/hotel3.jpeg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hotel Lima</h5>
+            <p class="card-text">Hotel ubicado en pleno centro</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary btn-sm w-100"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow border-0">
+          <img src="/images/hotel4.jpeg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hotel Río de Janeiro</h5>
+            <p class="card-text">Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary btn-sm w-100"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow border-0">
+          <img src="/images/hotel5.jpeg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hotel La Paz</h5>
+            <p class="card-text">Hotel ubicado en pleno centro de La Paz a pocos metros de la playa</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary btn-sm w-100"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow border-0">
+          <img src="/images/hotel6.jpeg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hotel Madrid</h5>
+            <p class="card-text">Hotel ubicado en pleno centro de Madrid.
+              <br><br> No cuenta con playa cerca pero está lleno de riquesa histórica
+              y un gran ambiente nocturno.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary btn-sm w-100"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow border-0">
+          <img src="/images/hotel7.jpeg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hotel San Pablo</h5>
+            <p class="card-text">Hotel ubicado en pleno centro de San Pablo a pocos metros de la playa</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary btn-sm w-100"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      
     </div>
 
 
@@ -146,7 +175,7 @@
         </div>
         <div class="col-sm-4 d-flex flex-column align-items-end">
           <a href="/about.html">Nosotros</a>
-          <a href="#">Precios</a>
+          <a href="/precios.html#">Precios</a>
           <a href="#">Términos y Condiciones</a>
           <a href="/contacto.html">Contacto</a>
         </div>
