@@ -4,16 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <!-- build:css dist/index.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="/node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- endbuild -->
 
   <body>
+    <!-- build:js dist/index.js -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- endbuild -->    
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
@@ -182,7 +187,7 @@
             <p class="card-text">Hotel ubicado en pleno centro de San Pablo a pocos metros de la playa</p>
           </div>
           <div class="card-footer bg-transparent border-0">
-            <a href="#" class="btn btn-primary btn-sm w-100" data-bs-toggle="modal" data-bs-target="#modalReservar"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
+            <a href="#" id="btnReservar7" class="btn btn-primary btn-sm w-100" data-bs-toggle="modal" data-bs-target="#modalReservar"><span class="oi oi-plus footer-address-icon"></span>Reservar</a>
           </div>
         </div>
       </div>
@@ -257,16 +262,5 @@
   </div>
 </div>
 
-  <!-- Inicialización del tooltip -->
-  <script>
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
-  </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
-      popoverTriggerList.forEach(el => new bootstrap.Popover(el));
-    });
-  </script> 
   </body>
 </html>
